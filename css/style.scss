@@ -51,11 +51,9 @@
 	background-color: whitesmoke; }
   
   #topo {
-	background-color: lawngreen;
+	background-color: rgb(117, 255, 98);
 	width: 100%;
-	
-	
-    text-align: center; }
+	text-align: center; }
  
   #menu {
 	background-color: #9B59B6;
@@ -124,8 +122,9 @@
   @-ms-keyframes mymove{}
   @keyframes mymove{}
   .movie {
-	animation: mymove 2s linear infinite;
+	
 	-webkit-animation: mymove 2s linear infinite;
+	animation: mymove 2s linear infinite;
 	position: relative; }
   
   .menuu ul {
